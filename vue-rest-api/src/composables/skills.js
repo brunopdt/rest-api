@@ -49,8 +49,8 @@ export default function useSkills() {
     return {
         skill,
         skills,
-        getSkill,
-        getSkills,
+        loadSkill,
+        loadSkills,
         storeSkill,
         updateSkill,
         deleteSkill,
