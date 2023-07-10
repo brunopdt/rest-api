@@ -1,14 +1,27 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div style="display: flex; align-items: center;" align="center">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400px" alt="Laravel Logo">
+    <img src="vue-rest-api/src/assets/vue.png" width="150px" alt="Vue Logo">
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## Rest-Api em Laravel e Vue
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+O projeto foi desenvolvido para fins de estudo e me auxiliou bastante na prática do PHP e do framework Laravel, assim como a integração com o ambiente de frontend Vue. Por meio da interface, o usuário consegue criar uma tabela de `skills`, com identificadores únicos; assim como editá-lo e o deletar da base de dados.
 
--   [Simple, fast routing engine](https://laravel.com/docs/routing).
+![print](vue-rest-api/src/assets/print1.jpg "tabela de skills")
+
+## Tecnologias utilizadas
+
+No backend foram utilizados:
+ - PHP/Laravel
+ - Banco de dados MySQL - manipulação por Eloquent
+ - Postman
+
+No front end:
+ - Vue JS + Vite
+ - Tailwind CSS
+
+O banco de dados do projeto foi acessado e conectador por meio do painel do PHP My Admin
+
+
+![bd](vue-rest-api/src/assets/print-bd.jpg "bd")
